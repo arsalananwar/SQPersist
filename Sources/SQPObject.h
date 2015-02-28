@@ -16,6 +16,7 @@
 #import "SQPProperty.h"
 #import "FMDatabase.h"
 #import "FMDatabaseAdditions.h"
+#import <JSONModel/JSONModel.h>
 
 /**
  *  Protocole of SQPObject
@@ -29,7 +30,7 @@
 /**
  *  Entity object.
  */
-@interface SQPObject : NSObject <SQPObjectDelegate> {
+@interface SQPObject : JSONModel <SQPObjectDelegate> {
     
     /**
      *  Flag delete in cascade.

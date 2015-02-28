@@ -8,6 +8,7 @@ platform :ios, '7.0'
 target "SQPersist" do
 
 pod 'FMDB'
+pod 'JSONModel'
 
 end
 

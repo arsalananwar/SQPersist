@@ -1,14 +1,17 @@
 PODS:
-  - FMDB (2.4):
-    - FMDB/standard
-  - FMDB/common (2.4)
-  - FMDB/standard (2.4):
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
     - FMDB/common
+  - JSONModel (1.0.2)
 
 DEPENDENCIES:
   - FMDB
+  - JSONModel
 
 SPEC CHECKSUMS:
-  FMDB: 0b2fa25e5264ef177973c0cb8c02c711107979aa
+  FMDB: 0efa188cf0dd1ce82c27a478cd5f5fa245308677
+  JSONModel: cbdef0fdff1cc70e913a860861d3072860efd3a1
 
-COCOAPODS: 0.34.1
+COCOAPODS: 0.35.0
